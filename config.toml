@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Andrea's Reflections"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Andrea Foo - All rights reserved"
+
+[params.author]
+  name = "Andrea Foo"
+  thumbnail = "/images/spaget.jpg"
+  description = "Creator of this site"
+
+[params.index]
+  picture = "/images/logo.jpg"
+  title = "Andrea Foo Reflections"
+  subtitle = "These are my final reflections throughout the course about my self, my practice, and my future as I hope to bring what I learnt from this gender and sexuality class to my future work."
+
+[[menu.main]]
+  name = "Blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog"
