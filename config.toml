@@ -16,7 +16,7 @@ copyright = "Andrea Foo - All rights reserved"
   subtitle = "These are my final reflections throughout the course about my self, my practice, and my future as I hope to bring what I learnt from this gender and sexuality class to my future work."
 
 [[menu.main]]
-  name = "Blog"
+  name = "Journals"
   weight = 100
-  identifier = "blog"
-  url = "/blog"
+  identifier = "journals"
+  url = "/journals"
