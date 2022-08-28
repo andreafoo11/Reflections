@@ -3,7 +3,6 @@
 {{ end }}
 
 {{ define "main" }}
-    {{- partial "_shared/title.html" . -}}
     <div class="main-content">
         <!-- Begin Article
         ================================================== -->
@@ -26,11 +25,11 @@
                             <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
                                 <a target="_blank" class="link-dark">{{ .Site.Params.author.name }}</a><br>
                                 <span class="author-description">
-                                    {{ .Site.Params.author.description }}<br>
+                                    <!-- {{ .Site.Params.author.description }}<br> -->
                                     <i class="far fa-star"></i>
                                     {{ dateFormat "Jan 2, 2006" .PublishDate }}
-                                    <i class="far fa-clock clock"></i>
-                                    {{ .ReadingTime }} min read
+                                    <!-- <i class="far fa-clock clock"></i> -->
+                                    <!-- {{ .ReadingTime }} min read -->
                                 </span>					
                             </div>
                         </div>			
